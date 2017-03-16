@@ -98,6 +98,8 @@ function initSortable() {
       connectWith: '.column-card-list',
       placeholder: 'card-placeholder'
     }).disableSelection();
+
+    $('.column-container').sortable().disableSelection();
   }
 
 $('.create-column')
